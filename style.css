@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color:#45cc8b;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.bg-primary-color{
+    background-color: var(--primary-color)!important;
+}
+.text-color{
+    color: var(--text-color);
+}
+.font-roboto {
+    font-family: var(--roboto);
+}
+.lightblue {
+    color: lightblue;
+}
+
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+header.site-title{
+    font-family: var(--gugi);
+}
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
+}
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--navigation menu**/
+
+.navbar-nav
+{
+    padding: 0.8em 0em;
+
+}
+
+.navbar-nav ,
+.nav-link
+{
+    font-size: 0.9em;
+    color: var(--light-gray)!important;
+}
+
+.navbar-nav ,
+.nav-link ,
+.nav-item
+{
+
+    padding: 0 1.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+
+}
+.navbar-nav,
+.basket-icon
+{
+    margin-right: 6.5rem;
+}
+
+/*slider one */
+
+.site-slider{
+    position: relative;
+}
+
+.position-top
+{
+    position: absolute;
+    top: 50%;
+
+}
+.images
+{
+    height: 200px;
+    width: 200px
+}
+.hero{
+    background-image: linear-gradient(#0d904f,#0d904f);
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+
+
+
+}
+.hero h1
+{
+    color:#fff;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 22px;
+    letter-spacing: 3px;
+}
+.hero p
+{
+    color: #fff;
+
+}
+.hero-img{
+    height: 550px;
+    width: 500px;
+    margin: 0 100px;
+}
+
+.hero .Container
+{
+    font-size: 100%;
+    margin-top: 13%;
+}
+.start-btn
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 140px;
+    height:40px ;
+    margin-top: 30px;
+    border-radius:50px ;
+}
+.home-img img{
+    height: 550px;
+    width: 500px;
+    min-width: 250px;
+    margin-bottom: 30%;
+    margin-right: 0px;
+    margin-left: 100%;
+
+}
+.influences
+{
+    padding: 30px 0;
+    background: #efefef;
+}
+.influences h1
+{
+    margin:60px 0;
+    color: #555;
+}
+.person-img
+{
+    height: 400px;
+}
+.person-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.person-details{
+    background: #fff;
+    padding: 10px 0 1px;
+    margin-bottom:15px ;
+}
+
